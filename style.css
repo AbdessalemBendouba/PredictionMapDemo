@@ -1,0 +1,77 @@
+*{
+	margin			: 0;
+	padding			: 0;
+}
+html{
+	align-items		: center;
+	font-family		: Sans-serif;
+	font-size		: 1.25em;
+	background 		: #333;
+	color			: #EEE;
+    display			: flex;
+    justify-content	: center;
+	
+}
+body{
+	max-width		: 1075px;
+    height			: fit-content;
+    width			: 80%;
+    padding			: 1.5em 0;
+    border-radius	: 15px;
+    background		: #ffffff40;
+    box-shadow		: #ccc 0 0 20px inset, 0 0 20px;
+}
+
+h1{
+	width			: fit-content;
+	margin			: 0 auto .5em;
+}
+
+.container{
+	text-align		: left;
+	width			: 100%;
+}
+
+#the-map {
+	display			: grid;
+	grid-gap		: 2px;
+    padding			: 2px;
+    width			: fit-content;
+	margin 			: auto;
+    border-radius	: 15px;
+    background		: #0004;
+    padding			: 15px;
+    box-shadow		: #0008 0 0 5px, #0008 0 0 5px inset;
+}
+
+.grid-cell {
+    width			: 50px;
+    height			: 50px;
+    border			: 0;
+}
+
+#legend {
+    display			: flex;
+    flex-wrap		: wrap;
+    gap				: 15px;
+    margin			: 1.5em auto 0;
+    width			: fit-content;
+    max-width		: 80%;
+    border-radius	: 15px;
+    background		: #0004;
+    padding			: 15px;
+    box-shadow		: #0008 0 0 5px, #0008 0 0 5px inset;
+}
+
+.legend-item {
+    display			: flex;
+    align-items		: center;
+    margin-bottom	: 5px;
+}
+
+.legend-color {
+    width			: 20px;
+    height			: 20px;
+    margin-right	: 10px;
+    border			: 1px solid #000;
+}
